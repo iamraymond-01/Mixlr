@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin-top: 50px;
 }
 
 .header-container>h1 {
@@ -33,6 +34,9 @@
 
 .header-container>button {
     padding: 14px 64px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 800;
     border: 0;
     border-radius: 16px;
     color: #eee;
@@ -209,7 +213,7 @@
     object-fit: cover;
 }
 
-ul {
+.list-container {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -229,4 +233,20 @@ ul {
 }
 .list>img{
     width: 50px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.list-1{
+    list-style-type: none;
+    display: flex;
+}
+.list-2{
+    list-style-type: none;
+    display: flex;
 }
